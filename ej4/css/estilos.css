@@ -21,9 +21,9 @@ body {
 /* El contenedor flex para la primera fila de contenido */
 .content_wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row-reverse wrap;
   margin-bottom: 1em;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 header {
@@ -76,7 +76,8 @@ article {
 
 .articles {
   display: flex;
-  justify-content: space-between;
+  flex-flow: column-reverse nowrap;
+  justify-content: space-evenly;
   margin-left: 10%;
 }
 
@@ -92,7 +93,8 @@ footer {
   align-items: center;
   border-top: 1px solid #666666;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
   margin-top: 1em;
   padding: 2em;
 }

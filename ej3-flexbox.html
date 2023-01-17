@@ -17,60 +17,65 @@
     }
 
     .fila {
-
+        display: flex;
+        flex-direction: row;
     }
 
     .fila_inversa {
-
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .columna {
-
+        display: flex;
+        flex-direction: column;
     }
 
     .columna_inversa {
-
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .misma_fila {
-
+        display: flex;
+        flex-flow: row wrap;
     }
   </style>
 </head>
 <body>
-    <div class="caja">
-        <div class="fila"></div>
-        <div></div>
-        <div></div>
+    <div class="fila">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
     </div>
-    <div class="caja">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="fila_inversa">
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
     </div>
-    <div class="caja">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="columna">
+        <div class="caja">7</div>
+        <div class="caja">8</div>
+        <div class="caja">9</div>
     </div>
-    <div class="caja">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="columna_inversa">
+        <div class="caja">10</div>
+        <div class="caja">11</div>
+        <div class="caja">12</div>
     </div>
-    <div class="caja">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="misma_fila">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+        <div class="caja">7</div>
+        <div class="caja">8</div>
+        <div class="caja">9</div>
+        <div class="caja">10</div>
+        <div class="caja">11</div>
+        <div class="caja">12</div>
     </div>
 </body>
 </html>
