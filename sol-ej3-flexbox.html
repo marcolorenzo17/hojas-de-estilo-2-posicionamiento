@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Box - Ej3</title>
+  <style>
+    body {
+      background-color: coral;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      background-color: cornflowerblue;
+      font-size: 2em;
+      color: white;
+      padding: 10px;
+    }
+
+    #container-row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #container-row-reverse {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    #container-column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #container-column-reverse {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    #container-wrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div id="container-row">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+  <div id="container-row-reverse">
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+  </div>
+  <div id="container-column">
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+  </div>
+  <div id="container-column-reverse">
+    <div class="box">10</div>
+    <div class="box">11</div>
+    <div class="box">12</div>
+  </div>
+  <div id="container-wrap">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    <div class="box">10</div>
+    <div class="box">11</div>
+    <div class="box">12</div>
+  </div>
+</body>
+</html>
