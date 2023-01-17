@@ -4,7 +4,7 @@
 
 **2. Dado el fichero ej2-measure.html y su fichero ej2-resultado.png realiza los cambios necesarios en el CSS.**
 
-**3. Crea un fichero ej3-flexbox.html y añade 12 divs posicionados con flex. Estos deben de tomar las siguientes direcctiones. Los tres primeros en fila, los siguientes en fila inversa, a continuación en columnas y los tres restantes en columna inversa. ¿Cómo podrías hacer para que todos los divs se mostrasen en una misma fila haciendo un grid?**
+**3. Crea un fichero ej3-flexbox.html y añade 12 divs posicionados con flex. Estos deben de tomar las siguientes direcciones. Los tres primeros en fila, los siguientes en fila inversa, a continuación en columnas y los tres restantes en columna inversa. ¿Cómo podrías hacer para que todos los divs se mostrasen en una misma fila haciendo un grid?**
 
 **4. Dado el fichero ej4, haciendo uso de propiedades de Flexbox realiza al menos 4 cambios para visualizar las imágenes.**
 
